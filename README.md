@@ -1,4 +1,4 @@
-📘 README.md – Stage 1: Football Match Results Dataset
+Stage 1: Football Match Results Dataset
 🏆 Football Match Prediction AI – Stage 1: Data Collection
 
 Cel projektu:
