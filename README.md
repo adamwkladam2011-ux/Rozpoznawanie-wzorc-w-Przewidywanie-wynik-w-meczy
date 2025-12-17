@@ -6,7 +6,11 @@ Projekt realizowany jest w metodyce przyrostowej, podzielonej na trzy etapy (Sta
 
 ⚙️ STAGE 1: DATA ACQUISITION & PREPROCESSING (AKWIZYCJA DANYCH) Pierwszym etapem projektu było zbudowanie fundamentów pod analizę danych poprzez stworzenie zautomatyzowanych potoków (pipelines) pobierających surowe dane.
 
-Kluczowe funkcjonalności: 🔹 Integracja z API: Implementacja skryptów w języku Python łączących się z zewnętrznym API (football-data.org) w celu pobierania bieżących harmonogramów. 🔹 Zakres danych: 📅 Sezony: 2024/2025 (dane bieżące) oraz historia. 🏟️ Ligi: Premier League (Anglia), La Liga (Hiszpania), Bundesliga (Niemcy), Serie A (Włochy), Ligue 1 (Francja). 🔹 Strukturyzacja danych: Konwersja surowych odpowiedzi JSON do formatu tabelarycznego (Pandas DataFrame) i zapis do plików CSV. 🔹 Atrybuty: Data, Kod Ligi, Drużyny (Home/Away), Wynik końcowy, Status meczu.
+Kluczowe funkcjonalności: 
+🔹 Integracja z API: Implementacja skryptów w języku Python łączących się z zewnętrznym API (football-data.org) w celu pobierania bieżących harmonogramów. 
+🔹 Zakres danych: 📅 Sezony: 2024/2025 (dane bieżące) oraz historia. 🏟️ Ligi: Premier League (Anglia), La Liga (Hiszpania), Bundesliga (Niemcy), Serie A (Włochy), Ligue 1 (Francja). 
+🔹 Strukturyzacja danych: Konwersja surowych odpowiedzi JSON do formatu tabelarycznego (Pandas DataFrame) i zapis do plików CSV.
+🔹 Atrybuty: Data, Kod Ligi, Drużyny (Home/Away), Wynik końcowy, Status meczu.
 
 🧠 STAGE 2: MACHINE LEARNING & FEATURE ENGINEERING (MODELOWANIE) W drugim etapie projekt ewoluował z prostego agregatora wyników w zaawansowany system predykcyjny. Wprowadzono inżynierię cech (Feature Engineering) oraz modele uczenia nadzorowanego.
 
